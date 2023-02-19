@@ -146,3 +146,32 @@ input::-webkit-inner-spin-button {
 #start__body {
   height: 100vh;
 }
+
+@media screen and (max-width: 600px) {
+  .btn {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .guess {
+    font-size: 3rem;
+    padding: 1rem;
+    width: 13rem;
+  }
+  .between {
+    font-size: 1.5rem;
+  }
+  .number {
+    font-size: 4rem;
+    width: 8rem;
+    height: 8rem;
+    padding-top: 1rem;
+  }
+  h1 {
+    font-size: 3rem;
+    padding-bottom: none;
+    padding-top: 5rem;
+  }
+  .message {
+    font-size: 2.5rem;
+  }
+}
